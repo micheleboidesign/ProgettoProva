@@ -440,6 +440,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7963545008264783378, guid: d8ac54969203cac4098d33dd0fb8b1d8, type: 3}
   m_PrefabInstance: {fileID: 1099458072691902658}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &971319579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971319574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &996291846
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Folder
       objectReference: {fileID: 0}
+    - target: {fileID: 7492537882425908224, guid: d8ac54969203cac4098d33dd0fb8b1d8, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7851570134917615284, guid: d8ac54969203cac4098d33dd0fb8b1d8, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -943,7 +971,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7963545008264783378, guid: d8ac54969203cac4098d33dd0fb8b1d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971319579}
   m_SourcePrefab: {fileID: 100100000, guid: d8ac54969203cac4098d33dd0fb8b1d8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
