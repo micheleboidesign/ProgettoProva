@@ -62,8 +62,8 @@ public class DragDropManager : MonoBehaviour
 
         if (handler != null && !handler.IsBackground)
         {
-            // Custom drop: delegate entirely to the UnityEvent
-            handler.OnDrop.Invoke(item);
+            // Custom drop: delegate to HandleDrop (fires event + optional disable)
+            handler.HandleDrop(item);
         }
         else if (handler != null && handler.IsBackground)
         {
